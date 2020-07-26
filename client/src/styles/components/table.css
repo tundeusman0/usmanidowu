@@ -1,0 +1,38 @@
+.MuiTableCell-alignRight,
+.MuiTableCell-head,
+.MuiTableCell-root {
+  font-size: 18px !important;
+  font-weight: bold !important;
+  text-align: center !important;
+}
+.MuiTableCell-alignRight img {
+  height: 200px;
+  width: 250px;
+}
+.MuiTableContainer-root {
+  margin-top: 20px !important;
+}
+.MuiTableCell-root {
+  padding: 8px !important;
+}
+
+.MuiTableCell-root a > .MuiSvgIcon-root {
+  height: unset !important;
+  font-size: 28px !important;
+}
+.MuiTableCell-root a > .MuiSvgIcon-root:hover,
+.MuiSvgIcon-root:active {
+  background: rgb(167, 202, 9);
+}
+
+thead {
+  background: rgb(167, 202, 9);
+}
+
+tr:nth-child(even) {
+  background: rgb(226, 236, 240);
+}
+
+td.pivoted {
+  text-align: center !important;
+}

@@ -1,0 +1,134 @@
+.port {
+  background: rgba(199, 233, 220, 0.205);
+  color: #012525;
+}
+.port_head {
+  margin: 10px;
+  border-radius: 25px 25px;
+  background: #a7ca09;
+  color: #012525;
+}
+
+.toggle {
+  text-align: center;
+  padding: 10px;
+}
+
+.toggle h1 {
+  text-align: center;
+}
+.port_body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 15px;
+}
+.portPix {
+  margin-right: 100px;
+}
+.portPix > img {
+  width: 400px;
+  height: 700px;
+}
+.portSkills h1 {
+  margin-bottom: 0;
+}
+.portSkills {
+  text-align: center;
+  margin-left: 20px;
+}
+
+.portPrice h1 {
+  margin-bottom: 0;
+}
+
+.port_projects {
+  text-align: center;
+}
+.portPrice {
+  margin-left: 20px;
+  text-align: center;
+}
+
+.portFoot {
+  background: #a7ca09;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 10px;
+  border-radius: 70px;
+}
+.portFoot h2 {
+  text-align: center;
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) {
+  .port_body {
+    flex-direction: column;
+    margin: 2px;
+  }
+  .port_body_right {
+    display: flex;
+    justify-content: space-between;
+  }
+  .portSkills {
+    margin-left: unset;
+  }
+  .portPix {
+    margin-right: 10px;
+  }
+  .portPix > img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .port {
+    font-size: 10px;
+  }
+  .MuiTableCell-alignRight,
+  .MuiTableCell-head,
+  .MuiTableCell-root {
+    font-size: 13px !important;
+  }
+  .port_body_right {
+    display: flex;
+    justify-content: space-between;
+  }
+  .portPix {
+    margin-right: unset;
+  }
+  .portSkills {
+    margin-left: 10px;
+  }
+  .portPrice h3 {
+    font-size: 15px;
+  }
+  .portPrice {
+    margin-left: unset;
+  }
+  .toggle h1 {
+    font-size: 20px;
+  }
+  .port_body {
+    flex-direction: column;
+    margin: 2px;
+  }
+  .portPix > img {
+    width: 100%;
+    height: 100%;
+  }
+  .portFoot h2 {
+    margin: 5px;
+    font-size: 18px;
+  }
+  .portFoot {
+    padding-top: 35px;
+    padding-bottom: 60px;
+    margin: 10px;
+    border-radius: 90%;
+  }
+  .form {
+    width: 400px;
+  }
+}

@@ -1,0 +1,112 @@
+.login-addition {
+  display: flex;
+  margin-bottom: 200px;
+  text-align: center;
+  flex-direction: column;
+}
+.login-addition h3 {
+  color: rgb(173, 43, 124);
+}
+.form-container {
+  font-family: cursive;
+  color: rgb(2, 34, 54);
+}
+.form-container > h1 {
+  font-size: 25px;
+  margin: 0;
+  text-align: center;
+  color: rgb(2, 34, 54);
+  margin-bottom: 30px;
+}
+
+.form {
+  margin: 10px auto;
+  width: 500px;
+  /* width: 800px; */
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 25px;
+  position: relative;
+  z-index: 1;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  -webkit-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  -webkit-transition: none;
+  transition: none;
+  -webkit-animation: expand 0.8s 0.6s ease-out forwards;
+  animation: expand 0.8s 0.6s ease-out forwards;
+}
+
+.form a {
+  position: relative;
+}
+.form h2 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  margin: 0;
+}
+.form .title_container {
+  text-align: center;
+  padding-bottom: 15px;
+  color: rgb(167, 202, 9);
+}
+.MuiIconButton-label {
+  height: 10px;
+}
+.form .input_field {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+  -webkit-animation: bounce 0.6s ease-out;
+  animation: bounce 0.6s ease-out;
+}
+.form .textarea_field:hover {
+  border: #e1a70a;
+  color: #e1a70a;
+}
+.form .textarea_field {
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  -webkit-animation: bounce 0.6s ease-out;
+  animation: bounce 0.6s ease-out;
+}
+
+.form button {
+  margin-top: 10px;
+  background: #f5ba1a;
+  background: rgb(167, 202, 9);
+  line-height: 35px;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.form button:hover {
+  background: #e1a70a;
+}
+.form button:focus {
+  background: #e1a70a;
+}
+
+.MuiFormControl-marginNormal {
+  margin: 20px;
+}
+
+@media (max-width: 767px) {
+  .form-container > h1 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+}
